@@ -24,10 +24,14 @@
 
 
 
-function first(fn: Function){
-    setTimeout(fn, 1000);
-}
+// function first(fn: Function){
+//     setTimeout(fn, 1000);
+// }
 
-first(function(){
-    console.log("Hello");
-})
+// first(function(){
+//     console.log("Hello");
+// })
+
+
+
+const greet = (name: string) => `Hello ${name}`; 
