@@ -1,3 +1,3 @@
 "use strict";
-const no = 10;
+const no = 110;
 console.log(no);
