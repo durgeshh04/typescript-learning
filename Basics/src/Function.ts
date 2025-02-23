@@ -34,4 +34,19 @@
 
 
 
-const greet = (name: string) => `Hello ${name}`; 
+// const greet = (name: string) => `Hello ${name}`; 
+
+
+
+function calculateTax(income: number, taxYear: number): number{
+    if(taxYear < 2020){
+        return income * 1.2;
+    }
+
+    return income * 1.3;
+}
+
+console.log(calculateTax(51_000, 2010));
+
+
+
